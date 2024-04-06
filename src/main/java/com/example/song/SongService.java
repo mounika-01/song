@@ -87,7 +87,7 @@ public class SongService implements SongRepository {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         } else {
             playlist.remove(songId);
-            throw new ResponseStatusException(HttpStatus.NOT_CONTENT);
+            throw new ResponseStatusException(HttpStatus.NO_CONTENT);
 
         }
     }
