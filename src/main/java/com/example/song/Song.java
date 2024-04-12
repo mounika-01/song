@@ -20,11 +20,12 @@ public class Song {
     }
 
     // Getters and setters
-    public int getSongId() {
+   public int getsongId() {
         return songId;
     }
 
-    public void setSongId(int songId) {
+
+    public void setsongId(int songId) {
         this.songId = songId;
     }
 
